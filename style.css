@@ -4,3 +4,46 @@ img {
   margin-right: auto;
   width: 75%;
 }
+
+body {
+        background-color: #272730;
+        color: #f9f8ec;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+        font-weight: bold;
+
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+}
+
+#boxed {
+        background-color: #242427;
+        padding: 0.5rem;
+        border-radius: 16px;
+}
+
+#double_boxed {
+        background-color: #1b1b1d;
+        padding: 0.5rem;
+        border-radius: 8px;
+}
+
+/* unvisited link */
+a:link {
+  color: #0dc400;
+}
+
+/* visited link */
+a:visited {
+  color: #800b80;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffc53f;
+}
+
+/* selected link */
+a:active {
+  color: #f9f8ec;
+}
